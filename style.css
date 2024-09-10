@@ -1,0 +1,27 @@
+.accordion{
+    width:100%;
+    max-width: 600px;
+    /* background-color: aqua; */
+}
+
+.accordion-item{
+    margin-bottom: 10px;
+}
+.accordion-button{
+    width:100%;
+    padding: 10px;
+    text-align: left;
+    background-color: aquamarine;
+    color: blue;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.accordion-content{
+    padding: 0 10px;
+    overflow: hidden;
+    background-color: rgb(162, 160, 248);
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+}
